@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+* {
+  box-sizing: border-box;
+}
+
+.caja_madre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 70px;
+  width: 960px;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 50px;
+  text-align: left;
+  color: #96D3CC;
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+
+
+.title {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+div {
+  width: 320px;
+  height: 300px;
+}
+
+.saludo {
+  display: flex;
+}
+
+.box1{
+  background-color: #D4FDF8;
+}
+.box2{
+  background-color: #A3FCF2;
+}
+.box3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  background-color: #A0E9E1;
+  color: transparent;
+  transition-duration: 3s;
+}
+
+.box3:hover {
+    color: #96D3CC;
+    transition-duration: 400ms;
+}
+
+.box3 p{
+  margin: 5px;
+
+}
+
+
+
+.santo_domingo {
+  display: flex;
+}
+
+.box4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  background-color: #F5F5F2;
+}
+
+.box4 p{
+  margin: 5px;
+}
+
+.box5 {
+  background-color: #C5F2ED;
+}
+
+.box6 {
+  background-color: #ABF2EA;
+}
+
+.mexico{
+  display: flex;
+}
+
+.box7 {
+  background-color: #C8F8F2;
+}
+
+.box8 {
+  background-color: #AFF0E8;
+}
+
+.box9{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  background-color: #D4FDF8;
+}
+
+.box9 p{
+  margin: 5px;
+}
+
+.new_york{
+  display: flex;
+}
+
+.box10{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  background-color: #E3FEFB;
+}
+
+.box10 p{
+  margin: 5px;
+}
+
+.box11 {
+  background-color: #E1F9F2;
+}
+
+.box12 {
+  background-color: #B1F7EF;
+}
+
+.madrid{
+  display: flex;
+}
+
+.box13 {
+  background-color: #A3FCF2;
+}
+
+.box14 {
+  background-color: #AFF0E8;
+}
+
+.box15{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  background-color: #D4FDF8;
+}
+
+.box15 p{
+  margin: 5px
+}
